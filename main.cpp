@@ -5,11 +5,11 @@ int main(){
     std::cout << "Insert your favorite number between 1 and 100:";
     std::cin >> favorite_number;
     
-    if (favorite_number>100) {
+    if (favorite_number>99) {
         std::cout << "Please insert number less than 100!" << std::endl;
         return main();
     }
-    if (favorite_number<1) {
+    if (favorite_number<2) {
         std::cout << "Please insert number more than 1!" << std::endl;
         return main();
     }
